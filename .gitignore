@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Archives d'origine (volumineuses)
+*.zip
+
+# Artefacts forensiques (preuves volumineuses)
+scenarios/**/artifacts/*

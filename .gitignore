@@ -1,8 +1,16 @@
 # macOS
 .DS_Store
 
-# Archives d'origine (volumineuses)
+# Outils / config locale
+CLAUDE.md
+.claude/
+
+# Archives d'origine (volumineuses, chiffrées) — conservées hors git
 *.zip
 
-# Artefacts forensiques (preuves volumineuses)
+# Artefacts forensiques (preuves volumineuses) — non versionnés
 scenarios/**/artifacts/*
+!scenarios/**/artifacts/.gitkeep
+
+# Sources markdown des rapports (build) — seul le PDF est versionné
+scenarios/**/report.md

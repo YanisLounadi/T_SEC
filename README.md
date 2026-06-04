@@ -9,6 +9,7 @@ rapport DFIR.
 | # | Scénario | Source | Type | Statut |
 |---|----------|--------|------|--------|
 | 1 | [**Lockdown**](scenarios/01-lockdown/) — serveur IIS compromis (TechNova) | CyberDefenders #269 | PCAP + Memory + Malware | ✅ Fait |
+| 2 | [**XWorm**](scenarios/02-xworm/) — RAT .NET | CyberDefenders #247 | Malware | ✅ Fait |
 
 ## Organisation du repo
 
@@ -18,11 +19,15 @@ T-SEC-902/
 ├── report_template.md     # template DFIR partagé entre scénarios
 ├── project.pdf            # sujet du projet
 └── scenarios/
-    └── 01-lockdown/
-        ├── README.md      # synthèse du scénario
-        ├── report.pdf     # rapport DFIR
-        ├── docs/          # analyse détaillée par artefact
-        └── artifacts/     # preuves (non versionnées — cf .gitignore)
+    ├── 01-lockdown/
+    │   ├── README.md      # synthèse du scénario
+    │   ├── report.pdf     # rapport DFIR
+    │   ├── docs/          # analyse détaillée par artefact
+    │   └── artifacts/     # preuves (non versionnées — cf .gitignore)
+    └── 02-xworm/
+        ├── README.md
+        ├── docs/
+        └── artifacts/
 ```
 
 ## Conventions

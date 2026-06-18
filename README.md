@@ -1,7 +1,7 @@
 # T-SEC-902 — DFIR / Forensic Investigations
 
-Projet d'investigation forensique Epitech. Chaque scénario d'analyse d'artefacts est rangé dans
-son propre dossier sous `scenarios/`, avec ses artefacts, son analyse détaillée (`docs/`) et son
+Projet d'investigation forensique Epitech. Trois scénarios indépendants, chacun rangé dans son
+propre dossier sous `scenarios/`, avec ses artefacts, son analyse détaillée (`docs/`) et son
 rapport DFIR.
 
 ## Scénarios
@@ -10,6 +10,7 @@ rapport DFIR.
 |---|----------|--------|------|--------|
 | 1 | [**Lockdown**](scenarios/01-lockdown/) — serveur IIS compromis (TechNova) | CyberDefenders #269 | PCAP + Memory + Malware | ✅ Fait |
 | 2 | [**XWorm**](scenarios/02-xworm/) — RAT .NET | CyberDefenders #247 | Malware | ✅ Fait |
+| 3 | [**Stonks**](scenarios/03-stonks/) — image disque AD1, fraude financière | HTB Sherlock | Disk forensics + Dedup | ✅ Fait |
 
 ## Organisation du repo
 
@@ -24,7 +25,11 @@ T-SEC-902/
     │   ├── report.pdf     # rapport DFIR
     │   ├── docs/          # analyse détaillée par artefact
     │   └── artifacts/     # preuves (non versionnées — cf .gitignore)
-    └── 02-xworm/
+    ├── 02-xworm/
+    │   ├── README.md
+    │   ├── docs/
+    │   └── artifacts/
+    └── 03-stonks/
         ├── README.md
         ├── docs/
         └── artifacts/

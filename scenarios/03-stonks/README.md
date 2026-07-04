@@ -83,4 +83,4 @@ reconstruction intégrale.
 
 - [x] `docs/` — analyse détaillée (config/logs, MFT, récupération, fraude)
 - [x] `tools/recover_dedup_file.py` — script de reconstruction
-- [x] `report.pdf` — rapport DFIR
+- [x] Intégré au rapport DFIR général : [`../../report.pdf`](../../report.pdf) (partie « Scénario 3 »)

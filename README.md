@@ -1,8 +1,8 @@
 # T-SEC-902 — DFIR / Forensic Investigations
 
 Projet d'investigation forensique Epitech. Trois scénarios indépendants, chacun rangé dans son
-propre dossier sous `scenarios/`, avec ses artefacts, son analyse détaillée (`docs/`) et son
-rapport DFIR.
+propre dossier sous `scenarios/`, avec ses artefacts et son analyse détaillée (`docs/`). Les
+trois investigations sont consolidées dans un **rapport DFIR général unique** : [`report.pdf`](report.pdf).
 
 ## Scénarios
 
@@ -17,12 +17,11 @@ rapport DFIR.
 ```
 T-SEC-902/
 ├── README.md              # ce fichier (index)
-├── report_template.md     # template DFIR partagé entre scénarios
+├── report.pdf             # rapport DFIR général (livrable final)
 ├── project.pdf            # sujet du projet
 └── scenarios/
     ├── 01-lockdown/
-    │   ├── README.md      # synthèse du scénario
-    │   ├── report.pdf     # rapport DFIR
+    │   ├── README.md      # synthèse du scénario + Q/A
     │   ├── docs/          # analyse détaillée par artefact
     │   └── artifacts/     # preuves (non versionnées — cf .gitignore)
     ├── 02-xworm/
@@ -41,4 +40,6 @@ T-SEC-902/
 - **Artefacts** dans `artifacts/` — fichiers lourds **non versionnés** (voir `.gitignore`).
   Les archives chiffrées d'origine et leurs mots de passe sont rappelés dans chaque `README.md`.
 - **Analyse** dans `docs/`, un fichier Markdown par artefact / axe d'analyse.
-- **Rapport final** : `report.pdf`, basé sur `report_template.md`.
+- **Rapport final** : un rapport DFIR général unique à la racine, [`report.pdf`](report.pdf),
+  qui consolide les trois investigations (executive summary, une partie par scénario,
+  recommandations transverses, appendices).

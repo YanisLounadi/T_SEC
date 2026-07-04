@@ -101,4 +101,4 @@ NjRAT/Quasar), se faisant passer pour un installeur **Adobe**.
 ## Livrables
 
 - [x] `docs/` — analyse détaillée (statique, config, comportement)
-- [x] `report.pdf` — rapport DFIR (cf. `../../report_template.md`)
+- [x] Intégré au rapport DFIR général : [`../../report.pdf`](../../report.pdf) (partie « Scénario 2 »)

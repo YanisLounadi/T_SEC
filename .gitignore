@@ -12,5 +12,14 @@ CLAUDE.md
 scenarios/**/artifacts/*
 !scenarios/**/artifacts/.gitkeep
 
+# Pipeline de build du rapport général — non versionné (seul report.pdf racine l'est)
+report/
+kanban/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+
 # Sources markdown des rapports (build) — seul le PDF est versionné
 scenarios/**/report.md
